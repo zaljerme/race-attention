@@ -40,7 +40,7 @@ for chunk_size in [1, 2, 4, 8]:
         chunk_size=chunk_size
     )
 
-    # Give it exactly the same weights and hashes
+  
     model.load_state_dict(
         reference.state_dict()
     )
